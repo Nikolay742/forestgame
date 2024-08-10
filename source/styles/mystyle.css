@@ -1,0 +1,50 @@
+    @font-face {
+        font-family: 'ForestGame';
+        font-weight: normal;
+        src: url(ForestGameFont.ttf);
+    }
+
+    section {
+        background-image: url(photo_2024-08-04_13-45-11.jpg);
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    * {
+        font-family: ForestGame, Fallback, sans-serif;
+    }
+
+    section p {
+        color: rgb(92, 65, 0);
+        font-size: 20px;
+        margin: 0;
+    }
+
+
+    p,
+    .nav-link {
+        color: white;
+        font-size: 25px;
+        margin-top: 0.25em;
+    }
+
+    .container-fluid {
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        margin-right: 0.5em;
+    }
+
+    .video-text {
+        margin-left: 9.2em;
+        width: 1280px;
+    }
+
+    .date {
+        color: white;
+    }
