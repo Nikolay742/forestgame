@@ -1,0 +1,72 @@
+    @font-face {
+        font-family: 'ForestGame';
+        font-weight: normal;
+        src: url(ForestGameFont.ttf);
+    }
+
+    body {
+        background-image: url(phon.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+    h1,
+    h2 {
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    * {
+        font-family: ForestGame, Fallback, sans-serif;
+    }
+
+    section p {
+        color: rgb(72, 226, 55);
+        text-shadow: 1px 1px 1px #000;
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .card {
+        padding: 1em;
+        background-image: url(kamen.jpg);
+        box-shadow: 2px 2px 2px #000;
+    }
+
+    .videoandtext {
+        display: flex;
+    }
+
+    .video-text {
+        padding-left: 3px;
+        margin: auto auto;
+    }
+
+    p,
+    .nav-link {
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+        font-size: 25px;
+        margin-top: 0.25em;
+    }
+
+    .container-fluid {
+        flex-direction: row;
+    }
+
+    .navbar-brand {
+        margin-right: 0.5em;
+    }
+
+
+    .date {
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    footer {
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #000;
+        background-color: rgba(0, 0, 0, 0.258);
+    }
