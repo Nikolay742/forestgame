@@ -4,14 +4,20 @@
         src: url(ForestGameFont.ttf);
     }
 
-    section {
-        background-image: url(photo_2024-08-04_13-45-11.jpg);
+    body {
+        background-image: url(phon.jpg);
         background-size: contain;
         background-attachment: fixed;
+
+    }
+
+    section .cards {
+        background-image: url(photo_2024-08-24_12-48-48.jpg);
     }
 
     h1 {
         color: white;
+        text-shadow: 1px 1px 1px #000;
     }
 
     * {
@@ -19,15 +25,30 @@
     }
 
     section p {
-        color: rgb(92, 65, 0);
+        color: rgb(72, 226, 55);
+        text-shadow: 1px 1px 1px #000;
         font-size: 20px;
         margin: 0;
     }
 
+    .video-card {
+        padding: 1em;
+        background-color: rgb(69, 38, 8);
+    }
+
+    .videoandtext {
+        display: flex;
+    }
+
+    .video-text {
+        padding-left: 3px;
+        margin: auto auto;
+    }
 
     p,
     .nav-link {
         color: white;
+        text-shadow: 1px 1px 1px #000;
         font-size: 25px;
         margin-top: 0.25em;
     }
@@ -40,11 +61,14 @@
         margin-right: 0.5em;
     }
 
-    .video-text {
-        margin-left: 9.2em;
-        width: 1280px;
-    }
 
     .date {
         color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    footer {
+        font-size: 20px;
+        text-shadow: 1px 1px 1px #000;
+        background-color: rgba(0, 0, 0, 0.258);
     }
