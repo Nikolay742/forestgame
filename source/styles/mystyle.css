@@ -6,16 +6,13 @@
 
     body {
         background-image: url(phon.jpg);
-        background-size: contain;
+        background-size: cover;
         background-attachment: fixed;
 
     }
 
-    section .cards {
-        background-image: url(photo_2024-08-24_12-48-48.jpg);
-    }
-
-    h1 {
+    h1,
+    h2 {
         color: white;
         text-shadow: 1px 1px 1px #000;
     }
@@ -31,9 +28,10 @@
         margin: 0;
     }
 
-    .video-card {
+    .card {
         padding: 1em;
-        background-color: rgb(69, 38, 8);
+        background-image: url(kamen.jpg);
+        box-shadow: 2px 2px 2px #000;
     }
 
     .videoandtext {
